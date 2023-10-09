@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+         * {
+            margin: 0;
+            padding: 0;
+        }
+
+    .caixa-verde {
+        background-color: rgba(57, 175, 57, 0.75);/* Cor de fundo verde */
+        width: 300px; /* Largura da caixa em pixels */
+        height: 1000px; /* Altura da caixa em pixels */
+    }
+    img {
+            width: 100px; /* Define a largura da imagem */
+            height: auto; /* Mantém a proporção de aspecto original da imagem */
+            margin: 20px; /* Adiciona margens ao redor da imagem */
+            position: relative; /* Torna a posição relativa para usar top e left */
+            top: 7px; /* Move a imagem 10 pixels para baixo a partir da posição padrão */
+            left: 70px; /* Move a imagem 20 pixels para a direita a partir da posição padrão */
+        }
+        .circulo-preto {
+            width: 110px; /* Largura do círculo */
+            height: 110px; /* Altura do círculo (a mesma que a largura para criar um círculo perfeito) */
+            background-color: black; /* Cor de fundo preta */
+            border-radius: 50%; /* Define a forma como um círculo usando 50% de border-radius */
+            
+            /* Posicionamento */
+            position: absolute; /* Torna o posicionamento absoluto */
+            top: 20px; /* Posição superior em relação ao topo da página */
+            left: 85px; /* Posição à esquerda em relação à esquerda da página */
+     
+        }
+    
+        .cursive {
+            font-family: cursive;
+        }
+       
+        .lucida {
+            font-family: system-ui;
+       }        
+
+    </style>
+    <title>GREENCODE</title>
+</head>
+<body>
+<div class="caixa-verde">
+<div class="container mt-5 text-center">
+    <div class="circulo-preto"></div>
+    <img src="Arvore.png" >
+    <a class="text-center cursive" style="font-size: 30px; position: absolute; top: 140px; left: 50px;" >GREENCODE</a>
+    <img style="font-size: 1px; width: 45px;  height: auto; position: absolute; top: 250px; left: 10px;" src="casa.png" >
+    <a class="text-center lucida" style="font-size: 20px; position: absolute; top: 283px; left: 100px;" ><strong>Home </strong></a>
+    <img style="font-size: 1px; width: 45px;  height: auto; position: absolute; top: 350px; left: 10px;" src="lupa.png.png" >
+    <a class="text-center lucida" style="font-size: 20px; position: absolute; top: 380px; left: 100px;" ><strong>Buscar </strong></a>
+    <img style="font-size: 1px; width: 45px;  height: auto; position: absolute; top: 450px; left: 10px;" src="lupa.png.png" >
+    <img style="font-size: 1px; width: 15px;  height: auto; position: absolute; top: 460px; left: 22px;" src="ponto.png" >
+    <a class="text-center lucida" style="font-size: 20px; position: absolute; top: 480px; left: 100px;" ><strong>Ponto de Coleta </strong></a>
+    <img style="font-size: 1px; width: 60px;  height: auto; position: absolute; top: 540px; left: 3px;" src="user.png" >
+    <a class="text-center lucida" style="font-size: 20px; position: absolute; top: 580px; left: 100px;" ><strong>Perfil </strong></a>
+    <img style="font-size: 1px; width: 45px;  height: auto; position: absolute; top: 640px; left: 10px;" src="chat.png" >
+    <a class="text-center lucida" style="font-size: 20px; position: absolute; top: 680px; left: 100px;" ><strong>Chat </strong></a>
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+    * {
+            margin: 0;
+            padding: 0;
+        }
+
+    .caixa-verde {
+        background-color: rgba(57, 175, 57, 0.75);/* Cor de fundo verde */
+        width: 350px; /* Largura da caixa em pixels */
+        height: 1000px; /* Altura da caixa em pixels */
+    }
+    img {
+            width: 110px; /* Define a largura da imagem */
+            height: auto; /* Mantém a proporção de aspecto original da imagem */
+            margin: 20px; /* Adiciona margens ao redor da imagem */
+            position: relative; /* Torna a posição relativa para usar top e left */
+            top: 1px; /* Move a imagem 10 pixels para baixo a partir da posição padrão */
+            left: 80px; /* Move a imagem 20 pixels para a direita a partir da posição padrão */
+        }
+        .circulo-preto {
+            width: 100px; /* Largura do círculo */
+            height: 100px; /* Altura do círculo (a mesma que a largura para criar um círculo perfeito) */
+            background-color: black; /* Cor de fundo preta */
+            border-radius: 50%; /* Define a forma como um círculo usando 50% de border-radius */
+            
+            /* Posicionamento */
+            position: absolute; /* Torna o posicionamento absoluto */
+            top: 20px; /* Posição superior em relação ao topo da página */
+            left: 103px; /* Posição à esquerda em relação à esquerda da página */
+     
+        }
